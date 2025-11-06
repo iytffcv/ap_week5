@@ -1,8 +1,11 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
+magic= 'abracadabra'
 # a. Retrieve the 5th character.
-# b. Retrieve the second to last character.
+fifth_char= print(magic [4])
+# b. Retrieve the second to last character.\
+second_to_last_char=print(magic [-2])
 # c. Find the first occurrence of the letter 'c'.
 
 # Advanced Slicing:
@@ -45,3 +48,4 @@
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+# Basic Indexing
