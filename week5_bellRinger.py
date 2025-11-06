@@ -9,15 +9,19 @@ second_to_last_char=print(magic [-2])
 # c. Find the first occurrence of the letter 'c'.
 
 # Advanced Slicing:
-# Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+# Given the string 
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
-
+reversed_alphabet = print (alphabet[ : :-1])
+i_have_a_dream= "And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, Black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: Free at last. Free at last. Thank God almighty, we are free at last."
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
-
+JohnQ = "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+john = print(JohnQ.find("John F kenedy"))
+e
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
